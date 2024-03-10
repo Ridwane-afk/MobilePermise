@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorprimary">#2BCC6F</color>
+    <color name="colorprimarydark">#2BCC6F</color>
+    <color name="colorAccent">#353535</color>
+    <color name="colorprimarylight">#E9F8F1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackground">#EBEBEB</color>
+    <color name="colortrendingstart">#00B09B</color>
+    <color name="colorTrendingEnd">#96c93d</color>
+    <color name= "material_dynamic_neutral30">#353535</color>
+
+    <color name="creme">#FEFAE0</color>
+    <color name="orange">#DDA15E</color>
+    <color name="green">#283618</color>
+    <color name="lightGreen">#606C38</color>
+    <color name="darkOrange">#BC6C25</color>
+    <color name="red">#B52C14</color>
+    <color name="blue_sky">#87CEEB</color>
+
+
+</resources>
+

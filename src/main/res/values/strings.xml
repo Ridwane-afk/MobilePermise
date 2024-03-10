@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">HomePage</string>
+    <string name="hello">Hello</string>
+    <string name="ridwane">Ridwane</string>
+    <string name="search_centre">Search Centre</string>
+    <string name="parcours">Parcours</string>
+    <string name="rendez_vous">Rendez-vous</string>
+    <string name="trendance">TRENDANCE</string>
+    <string name="permis_est_votre_application_pour_reussire_votre_examen_une_fois_pret_prenez_rendez_vous">PermIS est votre application pour reussire votre examen une fois pret prenez rendez vous :)</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="accounte">Accounte</string>
+    <string name="account">Account</string>
+    <string name="setting">Setting</string>
+
+
+    <string name="add_marker" translatable="false">Add</string>
+    <string name="delete_marker">Delete</string>
+    <string name="delete_marker_desc">Delete Marker</string>
+    <string name="refresh_marker_desc">Refresh Path</string>
+    <string name="confirm_path">Confirm</string>
+
+
+    <string name="new_hike">New Hike</string>
+    <string name="maps">Maps</string>
+    <string name="profile">Profile</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="pwd">Password</string>
+    <string name="empty_field" translatable="false">-&#45;&#45;</string>
+
+    <string name="new_hike_title">Make a new hike!</string>
+    <string name="title">Title</string>
+    <string name="path">Path</string>
+    <string name="description">Description</string>
+    <string name="distance">Distance</string>
+    <string name="time">Estimated Time</string>
+    <string name="travel_method">Travel Method</string>
+    <string name="travel_method_prompt">Select a travel method</string>
+    <string name="send_new_hike">Done</string>
+
+    <string name="distance_format" translatable="false">%.2f m</string>
+    <string name="duration_format" translatable="false">%d:%02d:%02d</string>
+
+    <string name="err_name_required">Please provide your name</string>
+    <string name="err_email_required">Please provide your email</string>
+    <string name="err_email_invalid">Please provide a valid email</string>
+    <string name="err_age_required">Please provide a random number</string>
+    <string name="err_pwd_required">Please provide a password</string>
+    <string name="err_title_required">Please provide a title</string>
+    <string name="err_pwd_min_length">The password must be at least %d characters long</string>
+    <string name="err_pwd_no_match">The passwords do not match</string>
+    <string name="err_not_enough_markers">Not enough markers</string>
+    <string name="err_no_location">Could not get device location</string>
+    <string name="err_no_route_found">No route found</string>
+
+    <string name="register_success">You have been successfully registered</string>
+    <string name="register_fail">Registration has failed : %s</string>
+    <string name="verify_email">Check your email to verify your account</string>
+    <string name="login_fail">Login has failed : %s</string>
+
+    <string name="profile_title">Welcome %s !</string>
+    <string name="profile_title_no_name">Welcome :)</string>
+
+    <string name="register_title">Register to Hikify</string>
+    <string name="register">Register</string>
+
+    <string name="login_title">Log in to Hikify</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="forgot_pwd_title">You forgot your password !?</string>
+    <string name="forgot_pwd_sub">How did you do that ?</string>
+    <string name="reset_pwd">Reset Password</string>
+
+    <string name="plan_hike">Plan Hike</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="pick_picture">Pick Picture</string>
+
+    <string name="planned_hike_notifs_channel_name">Planned Hike Notifications</string>
+    <string name="planned_hike_notifs_channel_desc">Notifications concerning planned hikes</string>
+    <string name="hike_planned">Your hike was planned</string>
+    <string name="hike_planned_long">Your new hike on %s was planned on %s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

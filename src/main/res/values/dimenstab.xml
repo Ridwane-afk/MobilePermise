@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dimenstab.xml dans values-sw600dp -->
+
+        <dimen name="text_size_tab">24sp</dimen>
+        <dimen name="margin_tab">16dp</dimen>
+
+
+
+
+
+
+</resources>

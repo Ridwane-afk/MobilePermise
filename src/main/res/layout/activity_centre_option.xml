@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral30"
+    tools:context=".CentreAdapter">
+
+   <AutoCompleteTextView
+       android:id="@+id/autoCompleteTextView1"
+       android:layout_width="264dp"
+       android:layout_height="62dp"
+       android:background="@null"
+       android:hint="Rechercher un centre..."
+       android:imeOptions="actionSearch"
+       android:inputType="text"
+       android:maxLines="1"
+       android:padding="12dp"
+       android:textColor="@color/colordivider"
+       android:textColorHint="@color/colordivider"
+       android:textSize="18sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.238"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.19" />
+
+   <ImageButton
+       android:id="@+id/search_button"
+       android:layout_width="59dp"
+       android:layout_height="55dp"
+       android:background="@drawable/white_rectangle_background"
+       android:contentDescription="Rechercher"
+       android:src="@drawable/ic_search"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.841"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.188" />
+
+   <fragment
+       android:id="@+id/map"
+       android:name="com.google.android.gms.maps.SupportMapFragment"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/autoCompleteTextView1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
